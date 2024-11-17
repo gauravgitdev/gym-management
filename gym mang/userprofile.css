@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .header h1 {
+    margin: 0;
+  }
+  .header .breadcrumbs {
+    display: flex;
+    gap: 10px;
+  }
+  .header .breadcrumbs a {
+    color: #666;
+    text-decoration: none;
+  }
+  .header .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+  .profile-header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  .profile-header .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+  }
+  .profile-header .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .profile-header h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  .profile-header p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .profile-header .stats {
+    display: flex;
+    gap: 30px;
+  }
+  .profile-header .stats .stat {
+    text-align: center;
+  }
+  .profile-header .stats .stat h3 {
+    font-size: 24px;
+  }
+  .profile-header .stats .stat p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .profile-content {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .profile-content  {
+    width: 250px;
+  }
+  .profile-content  ul {
+    list-style: none;
+    padding: 0;
+  }
+  .profile-content  li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  .profile-content  li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .profile-content  li a:hover {
+    text-decoration: underline;
+  }
+  .profile-content .main {
+    flex: 1;
+  }
+  .profile-content .main h2 {
+    margin-top: 0;
+  }
+  /* li {
+    line-height: 10px;
+  } */
+  .profile-content .main p {
+    line-height: 4.6;
+  }
+  .social-media {
+    margin-top: 30px;
+  }
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+  }
+  .social-media li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .social-media li i {
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+  }
+  .social-media li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .social-media li a:hover {
+    text-decoration: underline;
+  }
+  /* --------------------------------------------------------------- */
+  /* General table styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table tr {
+  border-bottom: 1px solid #ddd; /* Horizontal line between rows */
+}
+
+table td {
+  padding: 10px; /* Padding inside each cell */
+  text-align: left; /* Align text to the left within cells */
+}
+
+table td:first-child {
+  font-weight: bold; /* Make the first column bold */
+  width: 30%; /* Adjust the width of the first column */
+}
+
+table td:last-child {
+  text-align: right; /* Align the content in the last column to the right */
+}
+
+
+   

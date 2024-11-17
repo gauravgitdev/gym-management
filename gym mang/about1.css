@@ -1,0 +1,77 @@
+/* about.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-brand {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 10px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* About Section Styles */
+.about-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.about-container h1,
+.about-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

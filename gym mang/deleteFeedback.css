@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #004d40;
+    margin-bottom: 25px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.alert.error {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Search form styles */
+.searchbox {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00332e;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #004d40;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+.delete-btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #e64a19;
+}
+
+.feedback-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
